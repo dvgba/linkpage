@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
-    background-image: url('https://freight.cargo.site/w/1546/h/1000/i/Y1129688759055114271054406429276/4B.png');
+    background-color: #F2649A !important;
 }
 .container {
     width: 100%;
@@ -23,10 +23,10 @@ body {
 }
 .card {
     background-color: white;
-    top: 58px;
+    top: 16px;
     left: 0px;
     right: 0px;
-    width: 308px;
+    width: 318px;
     margin: auto;
     display: flex;
     padding: 32px 0;
@@ -69,7 +69,7 @@ body {
     height: auto;
     font-size: 8px;
     font-style: Medium;
-    text-align: left;
+    text-align: center;
     
     
     line-height: 24px;
@@ -86,7 +86,8 @@ body {
 
 a {
     text-decoration: none;
-    
+    align-items: center;
+    flex-direction: row;
 }
 button {
     font-family: 'Press Start 2P', cursive;
